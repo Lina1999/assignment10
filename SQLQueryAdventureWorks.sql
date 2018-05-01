@@ -28,7 +28,7 @@ from Production.Product
 where ListPrice>900
 group by ProductModelID
 
---7 check
+--7 
 select ProductID, avg(OrderQty) as [Average Order Quantity]
 from Sales.SalesOrderDetail
 group by ProductID
